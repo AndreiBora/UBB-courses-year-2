@@ -1,0 +1,27 @@
+.header{
+  background-color: red;
+}
+.center{
+  height: 500px;
+}
+.left{
+  background-color: yellow;
+}
+.main{
+  background-color: blue;
+}
+.right{
+  background-color: magenta;
+}
+.footer{
+  background-color: green;
+}
+
+.footer h1{
+  display: flex;
+  text-align: center;
+}
+
+body ,html{
+  height: 100%;
+}

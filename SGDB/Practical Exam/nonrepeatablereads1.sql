@@ -1,0 +1,8 @@
+--Non-repeatable reads part 1
+SET TRANSACTION ISOLATION LEVEL READ COMMITTED
+BEGIN TRAN
+SELECT * FROM MainResidents
+--crank some data
+WAITFOR DELAY '00:00:10'
+SELECT * FROM MainResidents
+COMMIT TRAN

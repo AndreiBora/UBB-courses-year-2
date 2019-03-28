@@ -1,0 +1,21 @@
+create function uf_ValidateAge(@age int)
+RETURNS BIT 
+AS
+BEGIN
+	DECLARE @RETURN BIT
+	SET @RETURN = 1
+	IF (@age < 0)
+		SET @RETURN = 0
+	RETURN @RETURN
+END
+
+create function uf_ValidateName(@NAME varchar(20))
+RETURNS BIT
+AS
+BEGIN
+	DECLARE @RETURN BIT
+	SET @RETURN = 1
+	IF (SUBSTRING(@NAME,1,1) = LOWER(SUBSTRING(@NAME,1,1)) COLLATE Latin1_General_CS_AI)
+		SET @RETURN = 0
+	RETURN @RETURN
+END

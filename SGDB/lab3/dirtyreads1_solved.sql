@@ -1,0 +1,6 @@
+--Dirty Reads part 1 solved
+BEGIN TRANSACTION
+UPDATE Student set age = 21
+WHERE id= 1
+WAITFOR DELAY '00:00:05'
+ROLLBACK TRANSACTION

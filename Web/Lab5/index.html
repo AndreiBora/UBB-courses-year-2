@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        /* General */
+
+        ul {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        .dropdown {
+            position: relative;
+            
+        }
+
+        .btn-drop {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            min-width: 150px;
+        }
+        .countries  li{
+            width: 150px;
+            text-align: center;
+            display: block;
+            position: relative;
+            height: 40px;
+            line-height: 40px;
+            background-color:red;
+            color: white;
+            font-size:16px;
+       
+        }
+        ul.countries{
+            width: 150px;
+        }
+    
+
+        .ro-cities {
+            position: absolute;
+            width: 100%;
+            left: 100%;
+            top:0;
+            display: none;
+        }
+        .ro-cities li{
+            height: 40px;
+            line-height: 40px;
+            
+
+        }
+        
+        .hungaria{
+            position: relative;
+        }
+        .hu-cities{
+            display: none;
+            position: absolute;
+            width: 100%;
+            left: 100%;
+            top:0;
+        }
+        
+        #main{
+            display: none;
+        }
+
+        .netherlands{
+            position: relative;
+        }
+        .nl-cities{
+            display: none;
+            position: absolute;
+            width: 100%;
+            left: 100%;
+            top:0;
+        }
+
+        .italy{
+            position: relative;
+        }
+        .it-cities{
+            display: none;
+            position: absolute;
+            width: 100%;
+            left: 100%;
+            top:0;
+        }
+
+        .france{
+            position: relative;
+        }
+        .fr-cities{
+            display: none;
+            position: absolute;
+            width: 100%;
+            left: 100%;
+            top:0;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="dropdown">
+        <button id='btn-drop' class="btn-drop">Visit</button>
+        <ul id="main" class="countries">
+            <li id="ro"><a class="name"href="">Romania</a>
+                
+                <ul id="ro-cities" class="ro-cities">
+                    <li>Cluj</li>
+                    <li>Iasi</li>
+                    <li>Timisoara</li>
+                    <li>Vaslui :)</li>
+                </ul>
+            </li>
+
+            <li id='hu' class="hungaria"><a href="">Hungaria</a>
+                <ul id="hu-cities" class="hu-cities">
+                    <li>Budapest</li>
+                    <li>Debrecen</li>
+                    <li>Unknown</li>
+                </ul>
+            </li>
+
+            <li id='nl' class="netherlands"><a href="">Netherlands</a>
+                <ul id="nl-cities" class="nl-cities">
+                    <li>Amsterdam</li>
+                    <li>Eindhoven</li>
+                    <li>Rotherdam</li>
+                </ul>
+            </li>
+
+            <li id='it' class="italy"><a href="">Italy</a>
+                <ul id="it-cities" class="it-cities">
+                    <li>Rome</li>
+                    <li>Neapole</li>
+                    <li>Milano</li>
+                </ul>
+            </li>
+
+            <li id='fr' class="france"><a href="">France</a>
+                <ul id="fr-cities" class="fr-cities">
+                    <li>Paris</li>
+                    <li>Toulouse</li>
+                    <li>Nice</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <script>
+        document.getElementById('btn-drop').addEventListener('click',function(){
+            var r = document.getElementById('main');
+                if(r.style.display ==='none'){
+                    r.style.display = 'block';
+                }else{
+                    r.style.display = 'none';
+                }         
+        });
+        // ro
+        document.getElementById('ro').addEventListener('mouseover',function(){
+            var ro = document.getElementById('ro-cities');
+            ro.style.display = 'block';
+        });
+        document.getElementById('ro').addEventListener('mouseleave',function(){
+            var ro = document.getElementById('ro-cities');
+            ro.style.display = 'none';
+        });
+        // hu
+        document.getElementById('hu').addEventListener('mouseover',function(){
+            var hu = document.getElementById('hu-cities');
+            hu.style.display = 'block';
+            hu.style.backgroundColor ='green';
+        });
+        document.getElementById('hu').addEventListener('mouseleave',function(){
+            var hu = document.getElementById('hu-cities');
+            hu.style.display = 'none';
+            
+        });
+
+        //nl
+        document.getElementById('nl').addEventListener('mouseover',function(){
+            var hu = document.getElementById('nl-cities');
+            hu.style.display = 'block';
+            hu.style.backgroundColor ='red';
+        });
+        document.getElementById('nl').addEventListener('mouseleave',function(){
+            var hu = document.getElementById('nl-cities');
+            hu.style.display = 'none';
+            
+        });
+
+        //it
+        document.getElementById('it').addEventListener('mouseover',function(){
+            var it = document.getElementById('it-cities');
+            it.style.display = 'block';
+            it.style.backgroundColor ='red';
+        });
+        document.getElementById('it').addEventListener('mouseleave',function(){
+            var it = document.getElementById('it-cities');
+            it.style.display = 'none'; 
+        });
+
+        //fr
+        document.getElementById('fr').addEventListener('mouseover',function(){
+            var fr = document.getElementById('fr-cities');
+            fr.style.display = 'block';
+            fr.style.backgroundColor ='red';
+        });
+        document.getElementById('fr').addEventListener('mouseleave',function(){
+            var fr = document.getElementById('fr-cities');
+            fr.style.display = 'none'; 
+        });
+
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<!DOCTYPE collection SYSTEM "collection.dtd">
+<!--<?xml-stylesheet type="text/css" href="book.css"?>-->
+<?xml-stylesheet type="text/xsl" href="recipes.xsl"?>
+<recipes>
+	<recipe>
+    <name>Braised Lamb with Radishes and Mint</name>
+		<prep-time>0:10</prep-time>
+    <cooking-time>3:45</cooking-time>
+    <ingredients>
+      <ingredient>1 tbs salt</ingredient>
+      <ingredient>1 tbs pepper</ingredient>
+      <ingredient>1 tbs olive oil</ingredient>
+      <ingredient>1 cup venigar</ingredient>
+      <ingredient>2 tbs sugar</ingredient>
+      <ingredient>1 1/2 cups low-sodium chicken broth</ingredient>
+      <ingredient>2 teaspoons minced fresh rosemary</ingredient>
+      <ingredient>5 fresh mint leaves, finely sliced</ingredient>
+    </ingredients>
+    <steps>
+      <step>Preheat oven to 275 degrees F (135 degrees C).</step>
+      <step>Mix together salt, pepper, paprika, and cayenne pepper. Place lamb chops on a work surface; press seasoning onto both sides of lamb chops.</step>
+      <step>Heat oil in large oven-proof skillet over high heat. Brown lamb well on both sides, 3 or 4 minutes per side. Remove chops from pan;</step>
+    </steps>
+	</recipe>
+
+  <recipe>
+    <name>Strawberry Salad I</name>
+		<prep-time>0:15</prep-time>
+    <cooking-time>0:15</cooking-time>
+    <ingredients>
+      <ingredient>1/2 cup fat-free creamy salad dressing</ingredient>
+      <ingredient>1/4 cup milk</ingredient>
+      <ingredient>1/4 cup white sugar</ingredient>
+      <ingredient>1/8 cup distilled white vinegar</ingredient>
+      <ingredient>1 tablespoon poppy seeds</ingredient>
+      <ingredient>1 head romaine lettuce, torn into bite-size pieces</ingredient>
+      <ingredient>1 cup sliced fresh strawberries</ingredient>
+    </ingredients>
+    <steps>
+      <step> In a small bowl, mix together salad dressing, milk, sugar, vinegar, and poppy seeds. Refrigerate until ready to use. </step>
+      <step> Combine lettuce, onion, strawberries, pecans, and red bell pepper in a salad bowl. Toss with dressing.</step>
+    </steps>
+	</recipe>
+
+  <recipe>
+    <name>Spaghetti Cacio e Pepe</name>
+    <prep-time>0:05</prep-time>
+    <cooking-time>0:18</cooking-time>
+    <ingredients>
+      <ingredient>1 pound spaghetti</ingredient>
+      <ingredient>6 tablespoons olive oil</ingredient>
+      <ingredient>2 cloves garlic, minced</ingredient>
+      <ingredient>2 teaspoons ground black pepper</ingredient>
+      <ingredient>1 3/4 cups grated Pecorino Romano cheese</ingredient>
+    </ingredients>
+    <steps>
+      <step>Bring a large pot of lightly salted water to a boil. Cook spaghetti in the boiling water, stirring occasionally until tender yet firm to the bite, about 10 minutes. Scoop out some of the cooking water and reserve. Drain spaghetti.</step>
+      <step> Heat oil in a large skillet over medium heat. Add garlic and pepper; cook and stir until fragrant, 1 to 2 minutes. Add spaghetti and Pecorino Romano cheese. Ladle in 1/2 cup of reserved cooking water; stir until cheese is melted, about 1 minute. Add more cooking water until sauce coats spaghetti, about 1 minute more.</step>
+    </steps>
+  </recipe>
+  <recipe>
+    <name>Garlic Shrimp Linguine</name>
+    <prep-time>0:05</prep-time>
+    <cooking-time>0:20</cooking-time>
+    <ingredients>
+      <ingredient>1 pound uncooked linguine</ingredient>
+      <ingredient>1 tablespoon butter</ingredient>
+      <ingredient>3 tablespoons white wine</ingredient>
+      <ingredient>2 teaspoons grated Parmesan cheese</ingredient>
+      <ingredient>3 cloves garlic, minced</ingredient>
+    </ingredients>
+    <steps>
+      <step>Bring a large pot of lightly salted water to a boil. Add pasta and cook for 8 to 10 minutes or until al dente; drain.</step>
+      <step> In a medium saucepan, melt butter over medium low heat; add wine, cheese, garlic, parsley and salt and pepper to taste. Simmer over low heat for 3 to 5 minutes, stirring frequently.</step>
+      <step>Increase heat to medium high and add shrimp to saucepan; cook for about 3 to 4 minutes or until shrimp begins to turn pink. Do not overcook.</step>
+      <step>Divide pasta into portions and spoon sauce on top; garnish with Parmesan cheese and fresh parsley, if desired.</step>
+    </steps>
+  </recipe>
+</recipes>

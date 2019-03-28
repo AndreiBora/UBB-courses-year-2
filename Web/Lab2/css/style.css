@@ -1,0 +1,45 @@
+#mouse-over{
+  /* background-image:url("../img/chelsea.jpg"); */
+  height: 400px;
+  width: 500px;
+  background: white url("../img/chelsea.jpg") no-repeat center;
+  /* background-position: center;
+  background-repeat: no-repeat;*/
+  background-size: contain;
+  margin: auto;
+  transition: 1s ease-in-out;
+}
+
+#mouse-over:hover{
+  background-image:url("../img/barca.jpg");
+}
+
+/* .rectangle{
+  position: relative;
+  margin-left: 0;
+  height: 150px;
+  width: 150px;
+  background-color: blue;
+  transition: transform 1s ease-in-out;
+}
+
+.rectangle:hover{
+  transform: translateX(1200px) rotate(90deg);
+} */
+
+.rectangle{
+  position: relative;
+  margin-left: 0;
+  height: 150px;
+  width: 150px;
+  background-color: blue;
+  animation-timing-function: ease-in-out;
+  animation-name: myanimation;
+  animation-duration: 4s;
+}
+
+@keyframes myanimation {
+  0% {background-color: blue;left:0px;border-radius: 0 0 0 0;}
+  50%{background-color: red;left:1200px;transform:rotate(90deg); border-radius: 100% 100% 100% 100%;}
+  100%{background-color: red;left:0px;transform:rotate(90deg); border-radius: 0 0 0 0;}
+}

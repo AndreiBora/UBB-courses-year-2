@@ -1,0 +1,10 @@
+D:\Informatica\AN2\SEM2\SGBD\Labs\lab1\lab1\bin\Debug\lab1.exe.config
+D:\Informatica\AN2\SEM2\SGBD\Labs\lab1\lab1\bin\Debug\lab1.exe
+D:\Informatica\AN2\SEM2\SGBD\Labs\lab1\lab1\bin\Debug\lab1.pdb
+D:\Informatica\AN2\SEM2\SGBD\Labs\lab1\lab1\obj\Debug\lab1.csprojResolveAssemblyReference.cache
+D:\Informatica\AN2\SEM2\SGBD\Labs\lab1\lab1\obj\Debug\lab1.Form1.resources
+D:\Informatica\AN2\SEM2\SGBD\Labs\lab1\lab1\obj\Debug\lab1.Properties.Resources.resources
+D:\Informatica\AN2\SEM2\SGBD\Labs\lab1\lab1\obj\Debug\lab1.csproj.GenerateResource.cache
+D:\Informatica\AN2\SEM2\SGBD\Labs\lab1\lab1\obj\Debug\lab1.csproj.CoreCompileInputs.cache
+D:\Informatica\AN2\SEM2\SGBD\Labs\lab1\lab1\obj\Debug\lab1.exe
+D:\Informatica\AN2\SEM2\SGBD\Labs\lab1\lab1\obj\Debug\lab1.pdb
